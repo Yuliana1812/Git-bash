@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import seaborn as sns
 
+df = pd.read_csv('datps.csv')
 st. title("PRIMERA APP")
 
 tab1, tab2 = st.tabs (["tab1","tab2"])
